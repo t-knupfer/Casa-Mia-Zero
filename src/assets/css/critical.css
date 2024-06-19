@@ -161,7 +161,7 @@
   }
   #hero-856 .cs-picture {
     /* 623px - 814px */
-    /* height: clamp(38.9375rem, 60vw, 50.875rem); */
+    height: clamp(38.9375rem, 60vw, 50.875rem);
   }
   #hero-856 .cs-wave {
     width: 100%;

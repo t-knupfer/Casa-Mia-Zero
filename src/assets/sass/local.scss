@@ -170,7 +170,7 @@
 }
 
 /*-- -------------------------- -->
-<---   Side By Side Reverse     -->
+<---   Side By Side Reverse -- Our Services    -->
 <--- -------------------------- -*/
 
 /* Mobile - 360px */
@@ -191,6 +191,47 @@
             /* 48px - 64px */
             gap: clamp(3rem, 6vw, 4rem);
             position: relative;
+        }
+
+        .cs-left {
+            /* scaling the font size with the view width */
+            font-size: min(2.31vw, 0.7em);
+            /* using ems so we can use font size to scale the whole section */
+            width: 39.4375em;
+            height: 39.75em;
+            position: relative;
+        }
+        .cs-picture {
+            border-radius: 1.5em;
+            display: block;
+            position: absolute;
+            /* clips img tag corners */
+            overflow: hidden;
+        }
+        .cs-picture img {
+            width: 100%;
+            height: 100%;
+            /* makes image act like a background image */
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .cs-picture1 {
+            width: 32.625em;
+            height: 36.3125em;
+            top: 0;
+            left: 0;
+        }
+        .cs-picture2 {
+            width: 25.875em;
+            height: 25em;
+            background-color: #fff;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 40px;
+            /* 6px - 12px */
+            border: clamp(0.375em, 1.5vw, 0.75em) solid #fff;
+            right: 0;
+            bottom: 0;
         }
 
         .cs-content {
@@ -357,6 +398,11 @@
             justify-content: space-between;
         }
 
+        .cs-left {
+            font-size: min(1.2vw, 1em);
+            flex: none;
+        }
+
         .cs-image-group {
             font-size: min(0.8vw, 1em);
             /* prevents flexbox from squishing it */
@@ -394,6 +440,14 @@
 @media only screen and (min-width: 0rem) {
     body.dark-mode {
         #sbs-r-869 {
+            .cs-left:before, body.dark-mode #sbs .cs-left:after {
+                background: var(--accent);
+            }
+            .cs-picture2 {
+                background-color: var(--dark);
+                /* 6px - 12px */
+                border: clamp(0.375em, 1.5vw, 0.75em) solid var(--dark);
+            }
             .cs-topper {
                 color: var(--primaryLight);
             }
