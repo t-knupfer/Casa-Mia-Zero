@@ -679,7 +679,7 @@
     align-items: center;
   }
   #services-1354 .cs-topper {
-    color: #767676;
+    color: var(--primary);
   }
   #services-1354 .cs-title {
     max-width: 25ch;

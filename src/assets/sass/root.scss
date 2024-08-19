@@ -415,6 +415,7 @@
             img {
                 width: 100%;
                 height: 100%;
+                max-height: 4.5rem;
                 /* ensures the image never overflows the container. It stays contained within it's width and height and expands to fill it then stops once it reaches an edge */
                 object-fit: contain;
             }
@@ -654,7 +655,7 @@
 
             .cs-logo {
                 /* makes it white */
-                filter: grayscale(1) brightness(1000%);
+                //filter: grayscale(1) brightness(1000%);
             }
 
             .cs-toggle {
@@ -1144,7 +1145,7 @@
 
             .cs-logo {
                 /* turns it white */
-                filter: grayscale(1) brightness(1000%);
+                //filter: grayscale(1) brightness(1000%);
             }
 
             .cs-li-link,

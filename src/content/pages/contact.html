@@ -53,8 +53,8 @@ permalink: 'contact/'
                     <input required type="text" id="phone" name="phone" placeholder="Phone">
                 </label>
                 <label>
-                    How Did You Find Us
-                    <input type="text" id="find" name="find-us" placeholder="How did you find us?">
+                    Best Times To Reach You
+                    <input type="text" id="find" name="find-us" placeholder="Best times to reach you?">
                 </label>
                 <label class="cs-label-message">
                     Message
@@ -68,7 +68,8 @@ permalink: 'contact/'
                 <a class="cs-link" href="mailto:{{client.email}}">{{client.email}}</a>
                 <!--Phone-->
                 <span class="cs-header">Phone</span>
-                <a class="cs-link" href="tel:{{client.phoneForTel}}">{{client.phoneFormatted}}</a>
+                <a class="cs-link" href="tel:{{client.phonePrimaryForTel}}">{{client.phonePrimaryFormatted}}</a>
+                <a class="cs-link" href="tel:{{client.phoneSecondayForTel}}">{{client.phoneSecondaryFormatted}}</a>
                 <!--Address-->
                 <span class="cs-header">Address</span>
                 <a class="cs-link" href="{{client.address.mapLink}}">
@@ -76,10 +77,12 @@ permalink: 'contact/'
                     <br />
                     {{client.address.lineTwo}},
                     <br />
+                    {{client.address.lineThree}},
                     <span class="cs-block">
                         {{client.address.city}}
                         {{client.address.state}}
                         {{client.address.zip}}
+                        {{client.address.country}}
                     </span>
                 </a>
 

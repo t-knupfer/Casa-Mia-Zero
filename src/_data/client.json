@@ -1,15 +1,19 @@
 {
-    "name": "Maria-Belem Web Designs",
-    "email": "help@codestitch.app",
-    "phoneForTel": "555-779-4407",
-    "phoneFormatted": "(555) 779-4407",
+    "name": "Domus Zero",
+    "email": "info@domuszero.com",
+    "phonePrimaryForTel": "+39 3484929303",
+    "phoneSecondaryForTel": "+39 3758290553",
+    "phonePrimaryFormatted": "+39 348 4929303",
+    "phoneSecondayFormatted": "+39 375 8290553",
     "address": {
-        "lineOne": "First Address Line",
-        "lineTwo": "Second Address Line",
-        "city": "Denver",
-        "state": "CO",
-        "zip": "80206",
-        "mapLink": "https://goo.gl/maps/UAQn4vuGDiwv7DV39"
+        "lineOne": "Domus Zero",
+        "lineTwo": "cc: Renerwave Srl",
+        "lineThree": "Via Gianpaolo Orsini 95/B",
+        "city": "Firenze",
+        "state": "FI",
+        "zip": "50126",
+        "country": "Italy",
+        "mapLink": "https://maps.app.goo.gl/jeNXTfrDAQskYNtd8"
     },
-    "domain": "https://www.codestitch.app"
+    "domain": "https://www.domuszero.com"
 }
