@@ -104,7 +104,7 @@
   }
   #hero-856 .cs-picture {
     width: 100%;
-    max-width: 35.625rem;
+    max-width: 40rem;
     /* 400px - 712px */
     height: clamp(25rem, 95vw, 44.5rem);
     /* 100px - 200px */
@@ -124,7 +124,7 @@
     /* makes image act as a background image */
     object-fit: cover;
     /* ensures the top of the images is at the top of the container, no heads getting cut off */
-    object-position: top;
+    object-position: 75% 50%;
   }
   #hero-856 .cs-wave {
     /* we're stretching the svg wider than the viewport so it's taller and has more of a presence */
